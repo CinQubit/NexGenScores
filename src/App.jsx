@@ -1,9 +1,13 @@
-import React from "react"
+import React from 'react';
+import Routing from './Routes/index';
 
-export default function App() {
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div>
+      <Routing />
+    </div>
+  );
 }
+
+export default App;
