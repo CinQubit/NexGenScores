@@ -55,4 +55,4 @@ pip install -r requirements.txt</code></pre>
 
 <h2>Contact</h2>
 
-<p>For support, feedback, or inquiries, please email us at <a href="mailto:admin@cinqubit.com">support@nexgenscores.com</a> or open an issue on GitHub.</p>
+<p>For support, feedback, or inquiries, please email us at <a href="mailto:admin@cinqubit.com">admin@cinqubit.com</a> or open an issue on GitHub.</p>
