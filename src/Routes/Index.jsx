@@ -1,22 +1,27 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// Import your components for each route
+import Home from '../Pages/Home';
 // import Header from '../components/Header';
 // import Footer from '../components/Footer';
-import Home from '../components/Home';
 // import About from '../components/About';
 // import Contact from '../components/Contact';
+
+
+
 function Index() {
     return (
         <Router>
-            {/* <Header /> Add the header component */}
-            <Switch>
-                <Route exact path="/" component={Home} />
-            </Switch>
-            {/* <Footer /> Add the footer component */}
+            {/* <Header /> */}
+            <Routes>
+                <Route path="/" element={<Home />} />
+                {/* <Route path="/about" element={<AboutPage />} /> */}
+                {/* more routes */}
+            </Routes>
+            {/* <Footer /> */}
         </Router>
     );
 }
+
 
 export default Index;

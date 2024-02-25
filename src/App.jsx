@@ -1,5 +1,5 @@
 import React from 'react';
-import Routing from './Routes/index';
+import Routing from './Routes/Index.jsx';
 
 
 function App() {
